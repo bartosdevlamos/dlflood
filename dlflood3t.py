@@ -17,7 +17,7 @@ ap.add_argument("threads", type=int, nargs='?', default="")
 
 a = ap.parse_args()
 thr = ap.parse_args()
-time = ap.parse_args()
+
 
 cls()
 def dostread(num):
